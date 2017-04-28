@@ -22,9 +22,9 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Import routes to pass to the server 
-var routes = require('./controllers/burgers_controller.js');
+var routes = require("./controllers/burgers_controller.js");
 
-app.use('/', routes);
+app.use("/", routes);
 
 app.listen(port, function() {
   console.log("App listening on PORT " + port);
