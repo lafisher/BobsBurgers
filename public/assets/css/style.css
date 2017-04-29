@@ -40,7 +40,7 @@ html {
  }
 
  .burgerAvailable:hover {
- 	background-color: #81ff94;
+ 	background-color: #a0c237;
  }
 
  .burgerEaten {
@@ -72,7 +72,6 @@ html {
  	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
-    color: #f31b26; 
  	text-align: center;
 
  	border-radius: 25px;
@@ -90,6 +89,8 @@ html {
 .burgerFooter {
 	background-color: #a0c237;
 	padding: 20px 0;
+	font-family: 'Fontdiner Swanky';
+	font-weight: 100;	
 }
 
 #eatMe {
