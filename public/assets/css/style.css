@@ -1,5 +1,5 @@
 html {
- 	background-color: #FFC04C;
+ 	background-color: #a0c237;
  }
 
  body {
@@ -9,7 +9,7 @@ html {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	background-color: white;
+	background-color: #99bcf2;
  }
 
  #burgerfam {
@@ -19,22 +19,23 @@ html {
 
  h1 {
  	text-align: center;
- 	font-family: 'Fontdiner Swanky', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-size: 65px;
+    color: #f31b26; 
  	margin: 50px;
  }
 
  .burgerAvailable {
- 	font-family: 'Crafty Girls', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
 
  	border-radius: 25px;
- 	width: 100%;
+ 	width: 50%;
  	margin: 10px;
  	padding: 10px;
- 	background-color: #b7ffc2;
+ 	background-color: #fcdc61;
  	border: none;
  }
 
@@ -43,7 +44,7 @@ html {
  }
 
  .burgerEaten {
- 	font-family: 'Crafty Girls', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
@@ -51,28 +52,30 @@ html {
  	border-radius: 25px;
  	margin: 10px;
  	padding: 10px;
- 	background-color: #ffd1c9;
+ 	background-color: #f373a8;
  }
 
  h2 {
   	text-align: center;
- 	font-family: 'Fontdiner Swanky', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-size: 40px;
+    color: #f31b26;
  	margin: 50px;
  }
 
  .formContainer {
- 	background-color: orange;
+ 	background-color: #99bcf2;
  }
 
  .addBurgerButton {
- 	font-family: 'Crafty Girls', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
+    color: #f31b26; 
  	text-align: center;
 
  	border-radius: 25px;
- 	width: 100%;
+ 	width: 50%;
  	margin: 0;
  	padding: 10px;
  	background-color: #FFC04C;
@@ -86,4 +89,5 @@ html {
 .burgerFooter {
 	background-color: #FFC04C;
 	padding: 20px 0;
+    text-align: center;
 }
