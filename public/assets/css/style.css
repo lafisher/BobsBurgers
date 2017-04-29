@@ -50,7 +50,8 @@ html {
  	text-align: center;
 
  	border-radius: 25px;
- 	margin: 10px;
+    width: 50%; 
+ 	margin: 0 auto;
  	padding: 10px;
  	background-color: #f373a8;
  }
@@ -64,7 +65,7 @@ html {
  }
 
  .formContainer {
- 	background-color: #99bcf2;
+ 	background-color:white;
  }
 
  .addBurgerButton {
@@ -76,9 +77,9 @@ html {
 
  	border-radius: 25px;
  	width: 50%;
- 	margin: 0;
+ 	margin: 0 auto;
  	padding: 10px;
- 	background-color: #FFC04C;
+ 	background-color: #fcdc61;
  	border: none;
  }
 
@@ -87,7 +88,26 @@ html {
 }
 
 .burgerFooter {
-	background-color: #FFC04C;
+	background-color: #a0c237;
 	padding: 20px 0;
-    text-align: center;
+}
+
+#eatMe {
+    font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px; 
+ 	text-align: center;
+
+}
+
+#eaten {
+    font-family: 'Fontdiner Swanky';
+ 	font-weight: normal;
+ 	font-size: 20px; 
+ 	text-align: center;
+
+}
+
+#name {
+    background-color: white;
 }

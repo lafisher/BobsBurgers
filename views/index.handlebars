@@ -2,8 +2,8 @@
 
 <main>
   <div class="container">
-    <div class="row">
-      <div class="col s6">
+    <div class="row" id="eaten"> Devoured! 
+      <div class="col s6" id="eatMe"> Click to Devour!
         {{#each burgers}}
           {{#unless this.devoured}}
             <div>
@@ -15,7 +15,7 @@
         {{/each}}
       </div>
 
-      <div class="col s6">
+      <div class="col s6"> 
         {{#each burgers}}
           {{#if this.devoured}}
             <div class='burgerEaten'>
@@ -35,7 +35,7 @@
 <div class="row">
   <div class="col s12">
     <form action="/" method="POST">
-      <input type="text" id="name" name="burger_name" placeholder="Delicious Burger">
+      <input type="text" id="name" name="burger_name" placeholder="Burger Burger">
       <button type="submit" class="addBurgerButton">Add The Burger</button>
     </form>
   </div>
